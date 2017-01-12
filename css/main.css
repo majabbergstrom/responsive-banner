@@ -1,0 +1,23 @@
+html {
+  font-family: Georgia, serif; 
+}
+
+.section {
+  background-color: #495562;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #495562;
+}
+
+p {
+  color: #efefef;
+}
