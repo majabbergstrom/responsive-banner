@@ -65,4 +65,14 @@ h1 {
     max-width: 1500px;
   }
 
+  .content {
+    padding-left: 8.5em;
+    padding-right: 8.5em;
+    padding-bottom: .8em;
+  }
+
+  p {
+    margin-top: -.8em;
+  }
+
 }
