@@ -1,10 +1,14 @@
 html {
-  font-family: Georgia, serif; 
+  font-family: Georgia, serif;
 }
 
-.section {
+.wrapper {
   background-color: #495562;
   color: #fff;
+}
+
+.content {
+  max-height: 500px;
 }
 
 .btn {
@@ -18,6 +22,47 @@ html {
   color: #495562;
 }
 
-p {
+p,
+h1 {
   color: #efefef;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn {
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+    max-height: 500px;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, #495562 10%, rgba(73, 85, 98, 0) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+
+  .btn {
+    border-color: #fff;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .wrapper {
+    max-width: 1500px;
+  }
+
 }
